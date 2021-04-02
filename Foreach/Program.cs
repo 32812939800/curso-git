@@ -14,9 +14,9 @@ namespace Foreach
                 vet[i] = Console.ReadLine();
             }
 
-            Console.WriteLine("Nomes lidos: ");
+            Console.WriteLine("Nomes lidos");
             foreach(string x in vet) {
-                Console.WriteLine(x);
+                Console.WriteLine("Nome: " + x);
             }
 
             Console.ReadLine();
