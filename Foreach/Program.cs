@@ -7,6 +7,8 @@ namespace Foreach
         static void Main(string[] args)
         {
             int N;
+
+            Console.WriteLine("A função do programa é percorrer um vetor e imprimir os dados alocados com o foreach");
             N = int.Parse(Console.ReadLine());
             string[] vet = new string[N];
             
